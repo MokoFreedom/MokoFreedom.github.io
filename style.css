@@ -1,0 +1,46 @@
+body {
+	background-color: #3a3737;
+}
+
+.profile {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: arial;
+	line-height: 5px;
+}
+
+.profile-img {
+	border-radius: 50%;
+	max-width: 400px;
+	width: 50%;
+}
+
+.profile h2 {
+	font-size: 60px;
+}
+
+.profile p {
+	font-size: 20px;
+}
+
+.links {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	text-align: center;
+}
+
+.icon {
+	display: inline-block;
+	font-size: 33px;
+	color: white;
+	padding: 0px 3px;
+}
+
+.hatenablog {
+    width: 35px;
+	height: 35px;
+	transform: translateY(6px);
+}
+
