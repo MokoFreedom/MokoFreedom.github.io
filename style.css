@@ -16,6 +16,13 @@ body {
 	width: 50%;
 }
 
+
+@media screen and (max-width: 619px) {
+	.profile.img {
+		width: 80%;
+	}
+}
+
 .profile h2 {
 	font-size: 60px;
 }
