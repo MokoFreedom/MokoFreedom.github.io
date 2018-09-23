@@ -13,12 +13,16 @@ body {
 .profile-img {
 	border-radius: 50%;
 	max-width: 400px;
-	width: 50%;
 }
 
+@media screen and (min-width: 1081px) {
+	.profile-img {
+		width: 50%;
+	}
+}
 
-@media screen and (max-width: 619px) {
-	.profile.img {
+@media screen and (max-width: 1081px) {
+	.profile-img {
 		width: 80%;
 	}
 }
